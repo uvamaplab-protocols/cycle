@@ -2,11 +2,11 @@
   "typ1": {
     "type": "frequency",
     "skip": 1,
-    "take": 1,
+    "take": 30,
     "time": "20:00",
     "frequency": "1",
     "expiry": "1",
     "name": "Daily Check-in",
-    "path": "flow://flows/"
+    "path": "flow://flows/daily survey"
   }
 }

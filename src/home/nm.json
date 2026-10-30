@@ -1,0 +1,49 @@
+{
+    "type": "list",
+    "elements": [
+        {
+            "type": "tiles",
+            "title": "Ovulation Tests",
+            "icon": { "url": "/assets/completed.png", "tint": false },
+            "actions": [
+                {
+                    "text": "Log a Test Result",
+                    "action": "flow://flows/opk/log.json",
+                    "backgroundcolor": "#1A5C2FDA",
+                    "icon": { "url": "/assets/completed.png", "tint": false }
+                },
+                {
+                    "text": "How to Use",
+                    "action": "https://www.youtube.com/watch?v=BoFsPXlo034",
+                    "backgroundcolor": "#1A00E05A",
+                    "icon": { "url": "/assets/home_instructions.png", "tint": false }
+                },
+                {
+                    "text": "My Test Days",
+                    "action": "flow://flows/opk/schedule.json",
+                    "backgroundcolor": "#1AE0A100",
+                    "icon": { "url": "/assets/unlocked.png", "tint": false }
+                }
+            ]
+        },
+        {
+            "type": "tiles",
+            "title": "More information",
+            "icon": { "url": "/assets/home_resources.png", "tint": false },
+            "actions": [
+                {
+                    "text": "What do I do?",
+                    "action": "flow://flows/instructions/nm.json",
+                    "backgroundcolor": "#1A00E05A",
+                    "icon": { "url": "/assets/home_instructions.png", "tint": false }
+                },
+                {
+                    "text": "What is Cycle?",
+                    "action": "flow://flows/rationale.json",
+                    "backgroundcolor": "#1A5C2FDA",
+                    "icon": { "url": "/assets/home_resources.png", "tint": false }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "type": "tiles",
+    "title": "More information",
+    "icon": { "url": "/assets/home_resources.png", "tint": false },
+    "actions": [
+        {
+            "text": "What do I do?",
+            "action": "flow://flows/instructions/hc.json",
+            "backgroundcolor": "#1A00E05A",
+            "icon": { "url": "/assets/home_instructions.png", "tint": false }
+        },
+        {
+            "text": "What is Cycle?",
+            "action": "flow://flows/rationale.json",
+            "backgroundcolor": "#1A5C2FDA",
+            "icon": { "url": "/assets/home_resources.png", "tint": false }
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "header_text": "Instructions",
+    "elements": [
+		{ "type": "Text", "border": false, "html": true, "text": "<p><b>Every day for 30 days</b></p><p>Each evening at 8:00 PM the Daily Check-in opens. It stays open until 8:00 PM the next day. Tap Show Surveys on the home page to answer it. It asks where you are in your menstrual cycle, which symptoms you are having today, and how severe each of those symptoms is.</p><br><p><b>Ovulation tests</b></p><p>The study team will tell you which days to take an ovulation predictor kit (OPK) test, up to 5 days over the 30 days. Enter those days under My Test Days on the home page and the app will remind you on each one.</p><br><p>On each test day, take the test and tap Log a Test Result on the home page. Enter whether the test was positive or negative for the luteinizing hormone (LH) surge.</p><br><p>To see how to take the test and read the result, tap How to Use on the home page.</p>" }
+    ]
+}

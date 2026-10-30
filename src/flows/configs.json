@@ -6,7 +6,7 @@
         },
         {
             "type": "Buttons", 
-            "buttons": ["HC","NM"],
+            "buttons": ["HC::Hormonal contraception (pill, shot, or ring)","NM::Naturally menstruating"],
             "variable_name":"global:population"
         }
     ],

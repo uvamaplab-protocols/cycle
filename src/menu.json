@@ -1,32 +1,12 @@
 [
     {
-      "text": "What is MindTrails?",
-      "icon": "/assets/menu_mindtrails.png",
+      "text": "What is Cycle?",
+      "icon": "/assets/menu_information.png",
       "action": "flow://flows/rationale.json"
     },
     {
       "text": "Instructions",
       "icon": "/assets/menu_instructions.png",
-      "action": "flow://flows/instructions.json"
-    },
-    {
-      "text": "What is Anxiety?",
-      "icon": "/assets/menu_anxiety.png",
-      "action": "flow://flows/what is anxiety.json"
-    },
-    {
-      "text": "F.A.Q.",
-      "icon": "/assets/menu_faq.png",
-      "action": "flow://flows/faq.json"
-    },
-    {
-      "text": "Meet the Team",
-      "icon": "/assets/menu_team.png",
-      "action": "flow://flows/team.json"
-    },
-    {
-      "text": "Get Help",
-      "icon": "/assets/menu_help.png",
-      "action": "https://ert6g2.wixsite.com/hoosthinkcalmly/general-8"
+      "action": "flow://flows/instructions/${global:population}.json"
     }
   ]

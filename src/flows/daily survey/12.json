@@ -1,0 +1,33 @@
+{
+    "header_text": "Daily Survey",
+    "header_icon": "assets/subtitle.png",
+    "condition": [
+        "symptoms",
+        "=",
+        "anxiety"
+    ],
+    "elements": [
+        {
+            "type": "Text",
+            "html": true,
+            "text": "<p>How severe is this symptom today?</p><br><p><b>Anxiety</b></p>"
+        },
+        {
+            "type": "Buttons",
+            "name": "severity_anxiety",
+            "buttons": [
+                "0::0 - Nothing at all",
+                "1::1",
+                "2::2",
+                "3::3",
+                "4::4",
+                "5::5",
+                "6::6 - The worst I have ever experienced"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}
