@@ -1,6 +1,6 @@
 {
     "header_text": "Instructions",
     "elements": [
-		{ "type": "Text", "border": false, "html": true, "text": "<p><b>Every day for 30 days</b></p><p>Each evening at 8:00 PM the Daily Check-in opens. It stays open until 8:00 PM the next day. Tap Show Surveys on the home page to answer it.</p><br><p>It asks whether you took or used your hormonal contraception today, per your regular schedule, which symptoms you are having today, and how severe each of those symptoms is.</p><br><p>Answer the contraception question the same way whether your method is taken every day, every week, or on another schedule.</p>" }
+		{ "type": "Text", "border": false, "html": true, "has_variable": true, "text": "<p><b>Every day for 30 days</b></p><p>Each evening at your check-in time (${global:checkin_time, 20:00}, 24-hour clock) the Daily Check-in opens. It stays open until midnight, and the app reminds you every two hours until you answer it. Tap Show Surveys on the home page to answer it.</p><br><p>It asks whether you took or used your hormonal contraception today, per your regular schedule, which symptoms you are having today, and how severe each of those symptoms is.</p><br><p>Answer the contraception question the same way whether your method is taken every day, every week, or on another schedule.</p>" }
     ]
 }
