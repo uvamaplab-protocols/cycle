@@ -1,0 +1,18 @@
+{
+    "header_text": "My Test Days",
+    "header_icon": "assets/subtitle.png",
+    "elements": [
+        {
+            "type": "Text",
+            "text": "The study team will tell you which days to take an ovulation test. Add each of those days below, with a time, and the app will remind you to take the test and log the result."
+        },
+        {
+            "type": "Scheduler",
+            "output_name": "opk_test_days",
+            "action": "flow://flows/opk/log.json",
+            "message": "Today is an ovulation test day. Take your test, then tap here to log the result.",
+            "count": 5,
+            "days_ahead": 30
+        }
+    ]
+}

@@ -1,6 +1,7 @@
 {
     "header_text": "Daily Survey",
     "header_icon": "assets/subtitle.png",
+    "condition": ["global:population", "=", "HC"],
     "elements": [
         {
             "type": "Text",
@@ -8,11 +9,13 @@
         },
         {
             "type": "Buttons",
+            "output_name": "daily_contraception_taken",
             "buttons": [
                 "0::Yes",
                 "1::No",
                 "2::I don't know"
             ]
         }
-    ]
+    ],
+    "navigation_conditions": ["wait_for_complete", "wait_for_click"]
 }

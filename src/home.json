@@ -8,40 +8,13 @@
             "icon": {"url": "/assets/cycle.png", "tint": false }
         },
         {
-            "type": "sessions",
-            "left": { "text": "{0} Sessions Completed", "icon": { "url": "/assets/completed.png", "tint": false } },
-            "right": { "text": "Log an Exercise Session", "icon": { "url": "/assets/unlocked.png", "tint": false }, "action": "flow://flows/${global:population}/treatment/sessions" },
-            "lock_right": { "text": "Treatment Is Over", "icon": { "url": "/assets/locked.png", "tint": false } },
-            "lock_time": "42:00:00:00"
-        },
-        {
             "type": "button",
             "hideoncomplete": true,
             "action": {
                 "text": "Show Surveys",
                 "action": "navmodal://Survey"
+            }
         },
-        },        {
-            "type": "tiles",
-            "title": "More information",
-            "icon": {
-                "url": "/assets/home_resources.png",
-                "tint": false
-            },
-            "actions": [
-                {
-                    "text": "What do I do?",
-                    "action": "flow://flows/instructions.json",
-                    "backgroundcolor": "#1A00E05A",
-                    "icon": { "url": "/assets/home_instructions.png", "tint": false }
-                },
-                {
-                    "text": "What is Cycle?",
-                    "action": "flow://flows/what is anxiety.json",
-                    "backgroundcolor": "#1A5C2FDA",
-                    "icon": { "url": "/assets/home_resources.png", "tint": false }
-                }
-            ]
-        }
+        { "type": "ref", "path": "./home/${global:population}.json" }
     ]
 }
