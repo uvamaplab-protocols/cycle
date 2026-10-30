@@ -9,7 +9,7 @@
         },
         {
             "type": "Buttons",
-            "name": "contraception_taken",
+            "output_name": "daily_contraception_taken",
             "buttons": [
                 "0::Yes",
                 "1::No",

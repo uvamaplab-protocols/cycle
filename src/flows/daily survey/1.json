@@ -9,7 +9,7 @@
         },
         {
             "type": "Buttons",
-            "name": "cycle_status",
+            "output_name": "daily_cycle_status",
             "buttons": [
                 "0::I am currently not on my period (menstrual bleeding)",
                 "1::I am currently on my period (menstrual bleeding)",

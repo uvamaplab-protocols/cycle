@@ -8,7 +8,7 @@
         },
         {
             "type": "Buttons",
-            "name": "opk_result",
+            "output_name": "opk_result",
             "buttons": [
                 "positive::Positive (LH surge)",
                 "negative::Negative (no LH surge)"

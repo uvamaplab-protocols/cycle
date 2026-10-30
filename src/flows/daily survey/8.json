@@ -14,7 +14,7 @@
         },
         {
             "type": "Buttons",
-            "name": "severity_migraines",
+            "output_name": "daily_severity_migraines",
             "buttons": [
                 "0::0 - Nothing at all",
                 "1::1",

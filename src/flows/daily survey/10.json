@@ -14,7 +14,7 @@
         },
         {
             "type": "Buttons",
-            "name": "severity_mood_swings",
+            "output_name": "daily_severity_mood_swings",
             "buttons": [
                 "0::0 - Nothing at all",
                 "1::1",

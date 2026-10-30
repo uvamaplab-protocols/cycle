@@ -8,7 +8,7 @@
         },
         {
             "type": "Scheduler",
-            "name": "opk_test_days",
+            "output_name": "opk_test_days",
             "action": "flow://flows/opk/log.json",
             "message": "Today is an ovulation test day. Take your test, then tap here to log the result.",
             "count": 5,

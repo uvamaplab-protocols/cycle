@@ -14,7 +14,7 @@
         },
         {
             "type": "Buttons",
-            "name": "severity_headaches",
+            "output_name": "daily_severity_headaches",
             "buttons": [
                 "0::0 - Nothing at all",
                 "1::1",
