@@ -3,6 +3,7 @@
   "menu": { "type": "ref", "path": "./menu.json" },
   "surveys": {"type": "ref", "path": "./surveys.json"},
   "reminders": {
-    "checkin": { "type": "survey", "survey_id": "typ1", "frequency": "02:00:00", "take": 4 }
+    "checkin": { "type": "survey", "survey_id": "typ1", "frequency": "02:00:00", "take": 4 },
+    "opk": { "type": "survey", "survey_id": "opk", "frequency": "04:00:00", "take": 3 }
   }
 }
