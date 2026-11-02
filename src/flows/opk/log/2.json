@@ -1,0 +1,24 @@
+{
+    "header_text": "Ovulation Test",
+    "header_icon": "assets/subtitle.png",
+    "condition": [
+        "opk_result",
+        "=",
+        "positive"
+    ],
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Please take a picture of your test strip so the study team can see the result. You can skip this if you prefer not to."
+        },
+        {
+            "type": "Photo",
+            "output_name": "opk_photo",
+            "text": "Take a photo",
+            "library_text": "Choose from library"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_click"
+    ]
+}

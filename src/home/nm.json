@@ -8,7 +8,7 @@
             "actions": [
                 {
                     "text": "Log a Test Result",
-                    "action": "flow://flows/opk/log.json",
+                    "action": "flow://flows/opk/log",
                     "backgroundcolor": "#1A5C2FDA",
                     "icon": { "url": "/assets/completed.png", "tint": false }
                 },
