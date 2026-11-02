@@ -15,6 +15,16 @@
         },
         {
             "type": "Text",
+            "text": "What time would you like to receive your daily check-ins?"
+        },
+        {
+            "type": "Time",
+            "default_time": "20:00",
+            "variable_name": "global:checkin_time",
+            "output_name": "config_checkin_time"
+        },
+        {
+            "type": "Text",
             "text": "Testing only: pick the ovulation test days. In the study these come from the invitation."
         },
         {
@@ -25,16 +35,6 @@
             "days_ahead": 60,
             "has_time": false,
             "schedule_flow": false
-        },
-        {
-            "type": "Text",
-            "text": "What time would you like to receive your daily check-ins?"
-        },
-        {
-            "type": "Time",
-            "default_time": "20:00",
-            "variable_name": "global:checkin_time",
-            "output_name": "config_checkin_time"
         }
     ],
     "navigation_conditions": [
