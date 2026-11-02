@@ -4,7 +4,6 @@
     "skip": 1,
     "take": 30,
     "time": "${global:checkin_time,20:00}",
-    "close": "24:00",
     "frequency": "1",
     "expiry": "1",
     "name": "Daily Check-in",
