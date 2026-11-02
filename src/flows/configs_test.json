@@ -25,7 +25,7 @@
         },
         {
             "type": "Text",
-            "text": "Testing only: pick the ovulation test days. In the study these come from the invitation."
+            "text": "Testing only: pick the ovulation test days and the time each one opens. In the study these come from the invitation."
         },
         {
             "type": "Scheduler",
@@ -34,7 +34,7 @@
             "count": 4,
             "days_behind": 0,
             "days_ahead": 90,
-            "has_time": false,
+            "has_time": true,
             "schedule_flow": false
         }
     ],

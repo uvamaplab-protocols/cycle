@@ -12,7 +12,6 @@
   "opk": {
     "type": "dates",
     "dates": "${global:opk_days}",
-    "time": "${global:opk_time,08:00}",
     "expiry": "16:00:00",
     "name": "Ovulation Test",
     "path": "flow://flows/opk/log"
