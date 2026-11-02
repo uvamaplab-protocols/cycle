@@ -32,7 +32,8 @@
             "variable_name": "global:opk_days",
             "output_name": "config_opk_days",
             "count": 4,
-            "days_ahead": 60,
+            "days_behind": 0,
+            "days_ahead": 90,
             "has_time": false,
             "schedule_flow": false
         }
