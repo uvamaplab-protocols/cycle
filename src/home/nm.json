@@ -2,39 +2,24 @@
     "type": "list",
     "elements": [
         {
-            "type": "tiles",
+            "type": "sublist",
             "title": "Ovulation predictor kit",
             "icon": {
-                "url": "/assets/completed.png",
+                "url": "/assets/opk_kit.png",
                 "tint": false
             },
             "actions": [
                 {
                     "text": "How to use the OPK test",
-                    "action": "flow://flows/opk/how-to.json",
-                    "backgroundcolor": "#1A00E05A",
-                    "icon": {
-                        "url": "/assets/home_instructions.png",
-                        "tint": false
-                    }
+                    "action": "flow://flows/opk/how-to.json"
                 },
                 {
                     "text": "Example photo",
-                    "action": "flow://flows/opk/example.json",
-                    "backgroundcolor": "#1A5C2FDA",
-                    "icon": {
-                        "url": "/assets/completed.png",
-                        "tint": false
-                    }
+                    "action": "flow://flows/opk/example.json"
                 },
                 {
                     "text": "Video",
-                    "action": "https://www.youtube.com/watch?v=BoFsPXlo034",
-                    "backgroundcolor": "#1AE0A100",
-                    "icon": {
-                        "url": "/assets/home_resources.png",
-                        "tint": false
-                    }
+                    "action": "https://www.youtube.com/watch?v=BoFsPXlo034"
                 }
             ]
         },

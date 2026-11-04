@@ -8,11 +8,9 @@
             "icon": {"url": "/assets/cycle.png", "tint": false }
         },
         {
-            "type": "button",
-            "hideoncomplete": true,
+            "type": "survey",
             "action": {
-                "text": "Show Surveys",
-                "action": "navmodal://Survey"
+                "text": "Surveys"
             }
         },
         { "type": "ref", "path": "./home/${global:population}.json" }
