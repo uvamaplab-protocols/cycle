@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Testing only: pick the ovulation test days and the time each one opens. In the study these come from the invitation."
+        },
+        {
+            "type": "Scheduler",
+            "variable_name": "global:opk_days",
+            "output_name": "config_opk_days",
+            "count": 5,
+            "days_behind": 0,
+            "days_ahead": 90,
+            "has_time": true,
+            "schedule_flow": false
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

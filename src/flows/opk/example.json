@@ -1,0 +1,16 @@
+{
+    "header_text": "Example photo",
+    "elements": [
+        {
+            "type": "Text",
+            "border": false,
+            "html": true,
+            "text": "<p>When your test is positive, the app asks for a photo of the strip. It should look like this: the whole strip, lying flat, in focus, with the control line and the test line both visible.</p>"
+        },
+        {
+            "type": "Media",
+            "border": false,
+            "uri": "/assets/opk_example.jpg"
+        }
+    ]
+}

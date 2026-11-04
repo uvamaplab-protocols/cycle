@@ -1,0 +1,18 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Choose when your daily questions appear. You can change this later in Settings."
+        },
+        {
+            "type": "Time",
+            "default_time": "20:00",
+            "variable_name": "global:checkin_time",
+            "output_name": "config_checkin_time"
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

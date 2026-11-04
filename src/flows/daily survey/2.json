@@ -1,11 +1,15 @@
 {
     "header_text": "Daily Survey",
     "header_icon": "assets/subtitle.png",
-    "condition": ["global:population", "=", "HC"],
+    "condition": [
+        "global:contraception_type",
+        "=",
+        "Oral contraceptive pill"
+    ],
     "elements": [
         {
             "type": "Text",
-            "text": "Did you take/use your hormonal contraception today, per your regular schedule?"
+            "text": "Did you take your pill today?"
         },
         {
             "type": "Buttons",
@@ -17,5 +21,8 @@
             ]
         }
     ],
-    "navigation_conditions": ["wait_for_complete", "wait_for_click"]
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
 }

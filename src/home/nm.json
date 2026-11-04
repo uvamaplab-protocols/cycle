@@ -3,21 +3,49 @@
     "elements": [
         {
             "type": "tiles",
-            "title": "More information",
+            "title": "Ovulation predictor kit",
             "icon": {
-                "url": "/assets/home_resources.png",
+                "url": "/assets/completed.png",
                 "tint": false
             },
             "actions": [
                 {
-                    "text": "How to Use an Ovulation Test",
-                    "action": "https://www.youtube.com/watch?v=BoFsPXlo034",
+                    "text": "How to use the OPK test",
+                    "action": "flow://flows/opk/how-to.json",
                     "backgroundcolor": "#1A00E05A",
                     "icon": {
                         "url": "/assets/home_instructions.png",
                         "tint": false
                     }
                 },
+                {
+                    "text": "Example photo",
+                    "action": "flow://flows/opk/example.json",
+                    "backgroundcolor": "#1A5C2FDA",
+                    "icon": {
+                        "url": "/assets/completed.png",
+                        "tint": false
+                    }
+                },
+                {
+                    "text": "Video",
+                    "action": "https://www.youtube.com/watch?v=BoFsPXlo034",
+                    "backgroundcolor": "#1AE0A100",
+                    "icon": {
+                        "url": "/assets/home_resources.png",
+                        "tint": false
+                    }
+                }
+            ]
+        },
+        {
+            "type": "tiles",
+            "title": "More information",
+            "icon": {
+                "url": "/assets/home_resources.png",
+                "tint": false
+            },
+            "actions": [
                 {
                     "text": "What do I do?",
                     "action": "flow://flows/instructions/nm.json",
@@ -28,7 +56,7 @@
                     }
                 },
                 {
-                    "text": "What is Cycle?",
+                    "text": "What is this study?",
                     "action": "flow://flows/rationale.json",
                     "backgroundcolor": "#1A5C2FDA",
                     "icon": {

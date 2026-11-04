@@ -1,0 +1,16 @@
+{
+    "header_text": "How to use the OPK test",
+    "elements": [
+        {
+            "type": "Media",
+            "border": false,
+            "uri": "/assets/opk_howto.png"
+        },
+        {
+            "type": "Text",
+            "border": false,
+            "html": true,
+            "text": "<p><b>How to use the OPK test</b></p><ol><li>Collect a small amount of urine in a clean, dry cup.</li><li>Hold the strip by the coloured end and dip the other end into the urine up to the maximum line, no further, for about 5 seconds.</li><li>Lay the strip flat on a clean surface and wait 5 minutes.</li><li>Read the result: a test line as dark as or darker than the control line is positive; a test line lighter than the control line, or no test line, is negative; no control line means the test is invalid and should be repeated with a new strip.</li><li>Log the result in the Ovulation Test survey, and add a photo of the strip if it is positive.</li></ol><br><p><b>Please take the OPK test between 10:00 AM and 8:00 PM.</b> Avoid testing outside this window, because the results may not be accurate.</p>"
+        }
+    ]
+}

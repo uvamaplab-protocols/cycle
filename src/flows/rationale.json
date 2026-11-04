@@ -1,6 +1,11 @@
 {
-    "header_text": "What is Cycle?",
+    "header_text": "What is this study?",
     "elements": [
-		{ "type": "Text", "border": false, "html": true, "text": "<p>Cycle is the app for a study of healthy male and female collegiate athletes. The study looks at whether where you are in your menstrual or hormonal cycle affects your results on concussion baseline and post-injury assessments.</p><br><p>Athletes in the study are in one of three groups: females who naturally menstruate, females who use a form of hormonal contraception (pill, shot, or ring), and males. Only the two female groups use the app.</p><br><p>For 30 days, the app asks you a few short questions each day about your cycle and any symptoms you are having. Your answers help the study team see where you were in your cycle when you were assessed.</p>" }
+        {
+            "type": "Text",
+            "border": false,
+            "html": true,
+            "text": "<p>Thank you for joining the Cycles study! This study looks at whether the menstrual cycle and hormonal contraception use influence baseline concussion assessments in healthy collegiate athletes. What we learn could help clinicians give female athletes more accurate and personalized concussion care.</p><br><p><b>What group am I in?</b></p><p>You have been placed in one of two groups:</p><ul><li><b>Naturally menstruating group:</b> athletes who are not using hormonal contraception</li><li><b>Hormonal contraception group:</b> athletes who are using a form of hormonal contraception (such as the pill, a hormonal IUD, the patch, the injection or the ring)</li></ul><p>Both groups are equally important. Comparing them helps us understand how natural hormone changes and hormonal contraception may each relate to concussion assessment results.</p><br><p><b>How does this app fit in?</b></p><p>This app helps us track your cycle and symptoms day by day. That way we can match your assessment results to where you are in your cycle or contraception schedule. See the “What do I do?” tab for your group’s daily steps.</p>"
+        }
     ]
 }
