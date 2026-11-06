@@ -1,4 +1,9 @@
 {
+    "condition": [
+        "global:population",
+        "=",
+        "NM"
+    ],
     "elements": [
         {
             "type": "Text",

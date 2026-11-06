@@ -2,7 +2,7 @@
   "home": { "title": "Cycle", "element": { "type": "ref", "path": "./home.json" } },
   "surveys": {"type": "ref", "path": "./surveys.json"},
   "reminders": {
-    "checkin": { "type": "survey", "survey_id": "typ1", "frequency": "02:00:00", "take": 4 },
-    "opk": { "type": "survey", "survey_id": "opk", "frequency": "04:00:00", "take": 3 }
+    "checkin": { "type": "survey", "survey_id": "typ1", "frequency": "01:00:00", "take": 3 },
+    "opk": { "type": "survey", "survey_id": "opk", "frequency": "01:00:00", "take": 3 }
   }
 }
