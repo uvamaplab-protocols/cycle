@@ -1,0 +1,12 @@
+{
+  "typ1": {
+    "type": "frequency",
+    "skip": 0,
+    "take": 31,
+    "time": "${global:checkin_time,20:00}",
+    "frequency": "1",
+    "expiry": "1",
+    "name": "Daily Check-in",
+    "path": "flow://flows/daily survey"
+  }
+}
