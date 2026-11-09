@@ -1,0 +1,3 @@
+{
+  "checkin": { "type": "survey", "survey_id": "typ1", "frequency": "01:00:00", "take": 3 }
+}
