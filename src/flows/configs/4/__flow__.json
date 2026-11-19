@@ -1,0 +1,11 @@
+{
+    "condition": [
+        "global:population",
+        "=",
+        "NM",
+        "&&",
+        "global:opk_days",
+        "count<",
+        4
+    ]
+}

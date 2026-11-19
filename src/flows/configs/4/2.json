@@ -1,0 +1,26 @@
+{
+    "condition": [
+        "global:population",
+        "=",
+        "NM",
+        "&&",
+        "global:opk_days",
+        "count<",
+        4
+    ],
+    "elements": [
+        {
+            "type": "Text",
+            "text": "You need to choose 4 ovulation test days. Please choose all 4 again."
+        },
+        {
+            "type": "Buttons",
+            "buttons": [
+                "flow://flows/configs/4::Choose my 4 days"
+            ]
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete"
+    ]
+}

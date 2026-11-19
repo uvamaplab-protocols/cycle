@@ -1,26 +1,22 @@
 {
     "condition": [
         "global:population",
-        "=",
-        "HC"
+        "count=",
+        0
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "Which type of hormonal contraception do you use?"
+            "text": "Which group are you in?"
         },
         {
-            "type": "Picker",
-            "title": "Select one",
-            "items": [
-                "Oral contraceptive pill",
-                "Hormonal IUD",
-                "Patch",
-                "Injection",
-                "Ring"
+            "type": "Buttons",
+            "buttons": [
+                "NM::Naturally menstruating group",
+                "HC::Hormonal contraception group"
             ],
-            "variable_name": "global:contraception_type",
-            "output_name": "config_contraception_type"
+            "variable_name": "global:population",
+            "output_name": "config_population"
         }
     ],
     "navigation_conditions": [

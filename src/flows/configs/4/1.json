@@ -1,19 +1,14 @@
 {
-    "condition": [
-        "global:population",
-        "=",
-        "NM"
-    ],
     "elements": [
         {
             "type": "Text",
-            "text": "Testing only: pick the ovulation test days and the time each one opens. In the study these come from the invitation."
+            "text": "Choose the 4 days you will take an ovulation test, and the time each test opens. Add all 4 days before you tap Next."
         },
         {
             "type": "Scheduler",
             "variable_name": "global:opk_days",
             "output_name": "config_opk_days",
-            "count": 5,
+            "count": 4,
             "days_behind": 0,
             "days_ahead": 90,
             "has_time": true,
