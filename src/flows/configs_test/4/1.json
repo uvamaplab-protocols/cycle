@@ -2,7 +2,7 @@
     "elements": [
         {
             "type": "Text",
-            "text": "Choose the 4 days you will take an ovulation test, and the time each test opens. Add all 4 days before you tap Next."
+            "text": "Choose 4 different days when you will take an ovulation test, and the time each test opens (between 10:00 AM and 8:00 PM). Add all 4 days before you tap Next."
         },
         {
             "type": "Scheduler",

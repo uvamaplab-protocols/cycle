@@ -11,13 +11,14 @@
     "elements": [
         {
             "type": "Text",
-            "text": "You need to choose 4 ovulation test days. Please choose all 4 again."
+            "text": "You need to choose 4 different ovulation test days. Please choose all 4 again."
         },
         {
             "type": "Buttons",
             "buttons": [
                 "flow://flows/configs_test/4::Choose my 4 days"
-            ]
+            ],
+            "output_name": "config_opk_check"
         }
     ],
     "navigation_conditions": [

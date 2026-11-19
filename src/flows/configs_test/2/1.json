@@ -1,9 +1,4 @@
 {
-    "condition": [
-        "global:population",
-        "count=",
-        0
-    ],
     "elements": [
         {
             "type": "Text",
