@@ -6,17 +6,17 @@
         "&&",
         "global:opk_days",
         "count<",
-        4
+        5
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "You need to choose 4 different ovulation test days. Please choose all 4 again."
+            "text": "You need to choose 5 different ovulation test days. Please choose all 5 again."
         },
         {
             "type": "Buttons",
             "buttons": [
-                "flow://flows/configs/4::Choose my 4 days"
+                "flow://flows/configs/4::Choose my 5 days"
             ],
             "output_name": "config_opk_check"
         }

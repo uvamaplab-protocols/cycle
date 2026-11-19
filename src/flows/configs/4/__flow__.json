@@ -6,6 +6,6 @@
         "&&",
         "global:opk_days",
         "count<",
-        4
+        5
     ]
 }
