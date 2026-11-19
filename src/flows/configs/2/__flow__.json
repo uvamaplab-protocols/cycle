@@ -1,0 +1,7 @@
+{
+    "condition": [
+        "global:population",
+        "count=",
+        0
+    ]
+}

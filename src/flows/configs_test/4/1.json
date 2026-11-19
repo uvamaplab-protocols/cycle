@@ -1,0 +1,22 @@
+{
+    "elements": [
+        {
+            "type": "Text",
+            "text": "Choose 4 different days when you will take an ovulation test, and the time each test opens (between 10:00 AM and 8:00 PM). Add all 4 days before you tap Next."
+        },
+        {
+            "type": "Scheduler",
+            "variable_name": "global:opk_days",
+            "output_name": "config_opk_days",
+            "count": 4,
+            "days_behind": 0,
+            "days_ahead": 90,
+            "has_time": true,
+            "schedule_flow": false
+        }
+    ],
+    "navigation_conditions": [
+        "wait_for_complete",
+        "wait_for_click"
+    ]
+}

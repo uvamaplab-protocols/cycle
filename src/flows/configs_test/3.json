@@ -1,14 +1,30 @@
 {
+    "condition": [
+        "global:population",
+        "=",
+        "HC",
+        "&&",
+        "global:contraception_type",
+        "count=",
+        0
+    ],
     "elements": [
         {
             "type": "Text",
-            "text": "Choose when your daily questions appear. You can change this later in Settings."
+            "text": "Which type of hormonal contraception do you use?"
         },
         {
-            "type": "Time",
-            "default_time": "20:00",
-            "variable_name": "global:checkin_time",
-            "output_name": "config_checkin_time"
+            "type": "Picker",
+            "title": "Select one",
+            "items": [
+                "Oral contraceptive pill",
+                "Hormonal IUD",
+                "Patch",
+                "Injection",
+                "Ring"
+            ],
+            "variable_name": "global:contraception_type",
+            "output_name": "config_contraception_type"
         }
     ],
     "navigation_conditions": [

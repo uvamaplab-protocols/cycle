@@ -1,17 +1,19 @@
 {
+    "condition": [
+        "global:link",
+        "count=",
+        0
+    ],
     "elements": [
         {
             "type": "Text",
-            "text": "Which group are you in?"
+            "text": "Please enter the participant ID the research team gave you."
         },
         {
-            "type": "Buttons",
-            "buttons": [
-                "NM::Naturally menstruating group",
-                "HC::Hormonal contraception group"
-            ],
-            "variable_name": "global:population",
-            "output_name": "config_population"
+            "type": "Entry",
+            "placeholder": "Participant ID",
+            "variable_name": "linking:code",
+            "output_name": "config_participant_id"
         }
     ],
     "navigation_conditions": [
