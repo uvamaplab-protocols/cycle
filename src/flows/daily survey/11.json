@@ -4,12 +4,12 @@
     "condition": [
         "symptoms",
         "=",
-        "irritability"
+        "mood_swings"
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "Irritability",
+            "text": "Mood swings",
             "font_size": 28,
             "font_attributes": "Bold",
             "text_alignment": "Center"
@@ -20,7 +20,7 @@
         },
         {
             "type": "Buttons",
-            "output_name": "daily_severity_irritability",
+            "output_name": "daily_severity_mood_swings",
             "buttons": [
                 "0::0 – None",
                 "1::1 – Very mild: barely noticeable",

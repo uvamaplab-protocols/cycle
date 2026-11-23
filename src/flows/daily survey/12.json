@@ -4,12 +4,12 @@
     "condition": [
         "symptoms",
         "=",
-        "anxiety"
+        "irritability"
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "Anxiety",
+            "text": "Irritability",
             "font_size": 28,
             "font_attributes": "Bold",
             "text_alignment": "Center"
@@ -20,7 +20,7 @@
         },
         {
             "type": "Buttons",
-            "output_name": "daily_severity_anxiety",
+            "output_name": "daily_severity_irritability",
             "buttons": [
                 "0::0 – None",
                 "1::1 – Very mild: barely noticeable",

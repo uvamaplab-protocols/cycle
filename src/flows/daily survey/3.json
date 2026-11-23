@@ -18,6 +18,7 @@
                 "headaches::Headaches",
                 "migraines::Migraines",
                 "nausea::Nausea",
+                "fatigue::Fatigue",
                 "mood_swings::Mood swings",
                 "irritability::Irritability",
                 "anxiety::Anxiety",
