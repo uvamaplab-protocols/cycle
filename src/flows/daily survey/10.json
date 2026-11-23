@@ -4,12 +4,12 @@
     "condition": [
         "symptoms",
         "=",
-        "mood_swings"
+        "fatigue"
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "Mood swings",
+            "text": "Fatigue",
             "font_size": 28,
             "font_attributes": "Bold",
             "text_alignment": "Center"
@@ -20,7 +20,7 @@
         },
         {
             "type": "Buttons",
-            "output_name": "daily_severity_mood_swings",
+            "output_name": "daily_severity_fatigue",
             "buttons": [
                 "0::0 – None",
                 "1::1 – Very mild: barely noticeable",

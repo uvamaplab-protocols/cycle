@@ -4,12 +4,12 @@
     "condition": [
         "symptoms",
         "=",
-        "angry"
+        "overwhelmed"
     ],
     "elements": [
         {
             "type": "Text",
-            "text": "Feeling angry",
+            "text": "Feeling overwhelmed",
             "font_size": 28,
             "font_attributes": "Bold",
             "text_alignment": "Center"
@@ -20,7 +20,7 @@
         },
         {
             "type": "Buttons",
-            "output_name": "daily_severity_angry",
+            "output_name": "daily_severity_overwhelmed",
             "buttons": [
                 "0::0 – None",
                 "1::1 – Very mild: barely noticeable",
